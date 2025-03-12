@@ -1,1 +1,1 @@
-# _MOBILE_HACK
+# 대상 확인
