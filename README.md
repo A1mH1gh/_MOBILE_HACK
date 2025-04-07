@@ -1,6 +1,8 @@
 ## 트러블슈팅
 어떤 이유에서 앱 설치안될 때, XAPK 파일로 설치하기 (단, 버전 맞추기)
 
+![image](https://github.com/user-attachments/assets/acadd3f3-dfd3-4ad9-b989-042f37cdd416)
+
 
 ## MobSF
 ```
