@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/c6a8d847-d9b2-40ac-adf0-241b1bbab7a8)# 대상 확인
-
 ## MobSF
 ```
 docker pull opensecurity/mobile-security-framework-mobsf:latest
