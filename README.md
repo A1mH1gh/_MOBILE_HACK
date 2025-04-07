@@ -21,3 +21,21 @@ docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:la
 | Android 6.0    | Marshmallow      | 23       | android-23       | 갤럭시 S6 시리즈, A7(2016), Note 5             |
 | Android 5.0~5.1| Lollipop         | 21~22    | android-21, 22   | 갤럭시 S5 시리즈, A5(2015)                     |
 | Android 4.4    | KitKat           | 19       | android-19       | 갤럭시 S4 시리즈, Note 3, 초기 J 시리즈        |
+
+🔹 Android Version
+일반 사용자에게 보이는 버전 이름 (예: Android 13)
+
+🔹 API Level
+개발자 관점에서 플랫폼 기능 레벨을 숫자로 표현
+앱의 호환성을 판단할 때 사용됨 예: API 33 = Android 13
+
+🔹 SDK Version
+개발자가 사용하는 도구들의 버전
+예: Android SDK 33은 API Level 33 기능을 포함
+
+⚙️ 앱 개발 시 주요 설정
+```
+<uses-sdk
+    android:minSdkVersion="23"
+    android:targetSdkVersion="33"/>
+```
