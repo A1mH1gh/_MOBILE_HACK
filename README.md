@@ -1,3 +1,7 @@
+## 트러블슈팅
+어떤 이유에서 앱 설치안될 때, XAPK 파일로 설치하기 (단, 버전 맞추기)
+
+
 ## MobSF
 ```
 docker pull opensecurity/mobile-security-framework-mobsf:latest
