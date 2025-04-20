@@ -4,10 +4,11 @@
 | 탈옥 방식           | Checkra1n            | Dopamine              |
 | Rootful / Rootless | ✅ Rootful            | ✅ Rootless            |
 | 시스템 루트 접근     | ✅ 가능               | ❌ 불가능 (/system 접근안됨)              |
-| IPA 추출 가능 여부  | ✅ 가능               | ✅ 가능         |
-| 앱 경로 접근 가능여부   | ✅ 가능          | 확인필요         |
+| IPA 추출 가능 여부  | ✅ 가능               | ✅ 가능(ssh 또는 트윅)         |
+| 앱 경로 접근 가능여부   | ✅ 가능          | ✅ 가능         |
 | Frida Server 가능   | ✅ 가능          | 확인필요         |
 | Frida Gaget 가능   | ✅ 가능          | 확인필요         |
+| SSL Pinning 우회 가능 | ✅ 가능 |✅ 가능 (트윅 ssl-kill-switch3) |
 
 <br>
 <br>
@@ -27,6 +28,19 @@ Rootless 알아보기
 <br>
 <br>
 <br>
+## 앱 샌드박스 디렉토리와	Shared AppGroup 디렉토리 차이점
+📊 핵심 비교 요약
+항목	앱 샌드박스 UUID (2번)	Shared AppGroup UUID (3번)
+위치	/Containers/Data/Application/	/Containers/Shared/AppGroup/
+접근 앱	해당 앱만 가능	AppGroup을 공유하는 여러 앱 가능
+주 용도	사용자 개인 데이터	앱 간 데이터 공유
+대표 사용처	설정, 이미지, 다운로드 등	위젯, 확장앱, watchOS 연동 등
+
+<br>
+<br>
+<br>
+
+
 
 먼저, rootless와 full은 단말 제어력과 탈옥탐지 회피력이 다름.
 less기기로 ipa 추출하고 피닝우회필요할때 프리다가젯쓰자
