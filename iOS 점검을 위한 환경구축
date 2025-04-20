@@ -1,3 +1,14 @@
+| 항목               | iPhone 8 (iOS 14.2) | iPhone X (iOS 16.4) |
+|--------------------|----------------------|-----------------------|
+| 탈옥 방식           | Checkra1n            | Dopamine              |
+| Rootful / Rootless | ✅ Rootful            | ✅ Rootless            |
+| 시스템 루트 접근     | ✅ 가능               | ❌ 불가능 (/system 접근안됨)              |
+| IPA 추출 가능 여부  | ✅ 가능               | ✅ 가능         |
+| Frida Server 가능   | ✅ 가능          | 확인필요         |
+| Frida Gaget 가능   | ✅ 가능          | 확인필요         |
+
+
+
 먼저, rootless와 full은 단말 제어력과 탈옥탐지 회피력이 다름.
 less기기로 ipa 추출하고 피닝우회필요할때 프리다가젯쓰자
 단말은 아이폰8또는x ~16.6.1(a11)
