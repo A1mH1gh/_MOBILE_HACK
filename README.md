@@ -14,6 +14,16 @@
 <br>
 Rootless 알아보기
 - rootfull과 같이 ipa 밀어넣기 불가 (AppSync 트윅 필요)
+
+ rootless 탈옥 단말에서 가능한 취약점 점검 범위
+
+항목	가능 여부	설명
+📦 앱 리버싱 (IPA 추출, 클래스 구조 분석)	✅	AppStore 앱을 추출하고 class-dump, Hopper, IDA 등으로 분석 가능
+🔍 앱 후킹 (Frida, Cycript 등)	✅	Frida와 Objection으로 런타임 분석 가능 (/var/jb 환경에서 설치됨)
+🔓 SSL Pinning 우회	✅	Frida script 또는 SSLKillSwitch 같은 트윅으로 가능
+🔐 앱 내 파일 접근 (샌드박스 내부)	✅	각 앱의 Documents, Library, tmp 디렉토리 접근 가능
+📑 앱 권한, Info.plist, entitlements 확인	✅	앱 번들 디렉토리 접근 가능 (/var/containers/Bundle/Application/...)
+⚠️ 시스템 취약점 진단 (시스템 로그, 커널패치 테스트 등)	❌ 제한됨	/etc, /usr, sysctl 등 시스템 전역 권한 필요 항목은 불가
 <br>
 <br>
 <br>
