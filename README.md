@@ -9,6 +9,14 @@
 | Frida Server 가능   | ✅ 가능          | 확인필요         |
 | Frida Gaget 가능   | ✅ 가능          | 확인필요         |
 
+<br>
+<br>
+<br>
+Rootless 알아보기
+- rootfull과 같이 ipa 밀어넣기 불가 (AppSync 트윅 필요)
+<br>
+<br>
+<br>
 
 먼저, rootless와 full은 단말 제어력과 탈옥탐지 회피력이 다름.
 less기기로 ipa 추출하고 피닝우회필요할때 프리다가젯쓰자
