@@ -4,7 +4,7 @@
 | 탈옥 방식           | Checkra1n            | Dopamine              |
 | Rootful / Rootless | ✅ Rootful            | ✅ Rootless            |
 | 시스템 루트 접근     | ✅ 가능               | ❌ 불가능 (/system 접근 x 다만, other+x 파일은 접근 가능)              |
-| IPA 추출 가능 여부  | ✅ 가능               | ✅ 가능         |
+| IPA 추출 가능 여부  | ipainstaller -b com.target               | ✅ 가능         |
 | 앱 경로 접근 가능여부   | ✅ 가능          | ✅ 가능         |
 | Frida Server 가능   | ✅ 가능          | 확인필요         |
 | Frida Gaget 가능   | ✅ 가능          | 확인필요         |
