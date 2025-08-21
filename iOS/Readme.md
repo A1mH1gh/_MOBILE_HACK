@@ -1,11 +1,11 @@
 ## Step 1. /private/var/containers/Bundle/Application/target-abcd-2413
-Mobile -> LocalPC
-```
-scp -r mobile@192.168.219.124:/private/var/containers/Bundle/Application/A0E01AC8-6F1A-4709-A18D-34CF0D328A40 ./
-```
+ipa 추출은 rootfull 탈옥 기긱에서..
 
 ## Step 2. /private/var/mobile/Containers/Data/Application/target-efgh-1324
-
+Mobile -> LocalPC
+```
+scp -r mobile@192.168.219.124:/from_mobile ./to_local
+```
 ## 기타
 + 플러터 앱 프록시 잡기
 https://blog.nviso.eu/2020/06/12/intercepting-flutter-traffic-on-ios/
