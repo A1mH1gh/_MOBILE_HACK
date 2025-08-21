@@ -4,7 +4,7 @@ Mobile -> LocalPC
 scp -r mobile@192.168.219.124:/private/var/containers/Bundle/Application/A0E01AC8-6F1A-4709-A18D-34CF0D328A40 ./
 ```
 
-## Step 2. /private/var/mobile/Containers/Data/target-efgh-1324
+## Step 2. /private/var/mobile/Containers/Data/Application/target-efgh-1324
 
 ## 기타
 + 플러터 앱 프록시 잡기
