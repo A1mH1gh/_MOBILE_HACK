@@ -8,3 +8,8 @@ docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:la
 + QARK
 
 # Step 2. /data/data/target.com 추출
+
+# 메모리 덤프
+만약, 앱 속성 debuggable="false" 일 경우 되지 않음.
+python fridump3.py -u -r [PID] -s
+am dumpheap [PID] ./dump.hprof
