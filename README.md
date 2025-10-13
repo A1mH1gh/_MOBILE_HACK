@@ -1,6 +1,15 @@
 # MobSF
 docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:latest
 
+# 프리다 탐지 우회
+1)
+```
+포트 지정
+```
+2) frida script
+3) Xposed 모듈(TrustMeAlready)
+4) 리패키징(apk-mitm)
+
 ## 탈옥 단말 상세
 | 항목               | iPhone 8 (iOS 14.2) | iPhone X (iOS 16.4) |
 |--------------------|----------------------|-----------------------|
