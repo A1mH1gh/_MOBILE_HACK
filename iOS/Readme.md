@@ -14,3 +14,6 @@ https://blog.nviso.eu/2020/06/12/intercepting-flutter-traffic-on-ios/
 /private/var/containers/Bundle/Application/[UUID]/앱이름.app/Info.plist /private/var/mobile/Containers/Data/Application/[UUID]/Library/Preferences/com.example.app.plist
 
 + export PS1=$'%F{green}%~%f\n%F{red}>%f
+
++ 재탈옥 후 sslkiller 등 트윅 설치하기
+  /private/var/mobiel/Containers/Shared/AppGroup/[APP-id}/File Provider Storage/DOwnloads
