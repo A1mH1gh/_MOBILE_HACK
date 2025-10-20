@@ -4,7 +4,7 @@ ipa 추출은 rootfull 탈옥 기긱에서..
 ## Step 2. /private/var/mobile/Containers/Data/Application/target-efgh-1324
 Mobile -> LocalPC
 ```
-scp -r mobile@192.168.219.124:/from_mobile ./to_local
+(PC) scp -r mobile@{MOBILE-IP}:/from_mobile ./to_local
 ```
 ## 기타
 + 플러터 앱 프록시 잡기
