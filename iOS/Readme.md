@@ -17,3 +17,4 @@ https://blog.nviso.eu/2020/06/12/intercepting-flutter-traffic-on-ios/
 
 + 재탈옥 후 sslkiller 등 트윅 설치하기
   /private/var/mobiel/Containers/Shared/AppGroup/[APP-id}/File Provider Storage/DOwnloads
++ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! -> ssh-keygen -R 1.1.1.34
