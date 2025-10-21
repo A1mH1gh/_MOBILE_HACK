@@ -18,3 +18,8 @@ adb shell am dumpheap <패키지명> /sdcard/app_heap.hprof
 # 데이터 주고받기
 tar -cvf data_data.tar /data/data/com.testapp/
 tar -xvf data_data.tar
+
+# Flutter 전용
++ reflutter
++ doldrum
++ blutter 칼리에서 진행
