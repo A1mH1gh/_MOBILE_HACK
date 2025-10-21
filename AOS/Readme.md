@@ -23,3 +23,6 @@ tar -xvf data_data.tar
 + reflutter
 + doldrum
 + blutter 칼리에서 진행
+
+# blutter 사용
+https://datafarm-cybersecurity.medium.com/hunting-secrets-in-flutter-applications-fed008daa60d
