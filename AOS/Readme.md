@@ -12,4 +12,4 @@ docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:la
 # 메모리 덤프
 만약, 앱 속성 debuggable="false" 일 경우 되지 않음.
 python fridump3.py -u -r [PID] -s
-am dumpheap [PID] ./dump.hprof
+adb shell am dumpheap <패키지명> /sdcard/app_heap.hprof
