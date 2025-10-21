@@ -25,4 +25,6 @@ tar -xvf data_data.tar
 + blutter 칼리에서 진행
 
 # blutter 사용
-https://datafarm-cybersecurity.medium.com/hunting-secrets-in-flutter-applications-fed008daa60d
++ 칼리 다운
++ scan은 gitleaks으로
++ (참고) https://datafarm-cybersecurity.medium.com/hunting-secrets-in-flutter-applications-fed008daa60d
