@@ -14,3 +14,7 @@ docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:la
 python fridump3.py -u -r [PID] -s
 <br>
 adb shell am dumpheap <패키지명> /sdcard/app_heap.hprof
+
+# 데이터 주고받기
+tar -cvf data_data.tar /data/data/com.testapp/
+tar -xvf data_data.tar
