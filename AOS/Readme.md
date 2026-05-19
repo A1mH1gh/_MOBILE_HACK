@@ -1,4 +1,5 @@
 # Step 1. /data/app/target.com 추출
++ grep -ril "smart" /
 + Jadx 디컴파일러
 + MobSF
 ```
