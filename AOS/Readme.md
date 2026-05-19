@@ -1,3 +1,10 @@
+# Step 0.
+```
+/system/freeda- -l 0.0.0.0:17777
+adb forward tcp:17777 tcp:17777
+frida -H 127.0.0.1:17777 -f com.scottyab.rootbeer.sample
+```
+
 # Step 1. /data/app/target.com 추출
 + grep -ril "smart" /
 + Jadx 디컴파일러
