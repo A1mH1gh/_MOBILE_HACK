@@ -6,7 +6,8 @@ frida -H 127.0.0.1:17777 -f com.scottyab.rootbeer.sample
 ```
 ```
 (kali) apkleaks -f com.apk
-cd /data/app && cd "$(ls -lt | head -2 | tail -1 | awk '{print $NF}')"
+가장 최근 설치된 어플 base.apk 절대경로가져오기
+cd /data/app && cd "$(ls -lt | head -2 | tail -1 | awk '{print $NF}')" && cd "$(ls -d */ | head -1)" && realpath base.apk
 ```
 
 # Step 1. /data/app/target.com 추출
