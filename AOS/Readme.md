@@ -6,6 +6,7 @@ frida -H 127.0.0.1:17777 -f com.scottyab.rootbeer.sample
 ```
 ```
 (kali) apkleaks -f com.apk
+cd /data/app && cd "$(ls -lt | head -2 | tail -1 | awk '{print $NF}')"
 ```
 
 # Step 1. /data/app/target.com 추출
